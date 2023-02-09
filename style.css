@@ -1,0 +1,58 @@
+/*NAMA : FIKRI DEFI WULANTO
+  KELAS: IF-8
+  NIM  : 10122276*/
+
+.banner {
+    background: url("https://wallpapercave.com/dwp1x/wp10742433.jpg")
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(32, 14, 14);
+}  /*Mengatur tampilan banner atau cover dengan menggunakan background rata tengah, dengan jarak atas bawa 20%, dan warna covernya
+yaitu putih yang akan berkaitan dengan warna tulisan di dalam cover */
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #ffa500;
+} /*Mengatur untuk tampilan dalam menu About dimana disini diatur untuk penggunaan icon food, drink, dan junk food menjadi bentuk
+lingkaran, dengan menggunakan bordernya 50%, lebar 150px, jarak auto, timingnya 150px, warna icon putih dengan background merah */
+
+.lingkaran i {
+    position: relative;
+    top: 45px;
+} /*Mengatur posisi icon dengan posisi relative dengan dan pengaturan dari atas batas adalah 45px */
+
+.crop-img {
+    object-fit: cover;
+} /*mengatur untuk tampilan menu food and drink gallery dimana gambar akan di crop sesuai cover */
+
+.support img{
+    width: 200px;
+    border: 10px solid #cccccc;
+}   /* Mengatur tampilan gambar pada menu support dimana diberikan lebar 250px, dengan border 10px menggunakan warna
+diatas untuk memberikan efek warna pada lingkaran gambar team support */
+
+a.sosial {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}   /*Mengatur penggunaan icon dalam menu support dimana menggunakan tampilan inline-block, lebar 40px, tinggi 40px, warna
+icon putih, dengan jarak radius 50%, background icon abu-abu, dengan jarak antar elemen 40px */
+
+.contact {
+    background: url("https://www.pixelldesign.com/wp-content/uploads/Gambar-background-makanan-HD-foto-masakan-menarik_02.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: rgb(32, 14, 14);
+} /* Mengatur background pada menu Contact yaitu sebagai cover dengan sisi bawah atas 20px dan warna cover putih*/

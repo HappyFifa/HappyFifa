@@ -1,0 +1,413 @@
+<!--NAMA : FIKRI DEFI WULANTO
+    KELAS: IF-8
+    NIM  : 10122276-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <!--Navigasi-->
+        <nav
+        class="navbar navbar-expand-lg navbar-light shadow-lg fixed-top"
+        > <!--Penggunaan Navigasi dengan warna hitam-->
+            <div class="container">
+                <a class="navbar-brand" href="#">HappyFifa</a>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarText"
+                aria-controls="navbarText"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                > <!--Penggunaan nama navigasi-->
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-right" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-6 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#food gallery">Food Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#drink gallery">Drink Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#support">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li><!--Menu dalam navigasi-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!--Banner-->
+        <div class="container-fluid banner">
+            <div class="container text-center">
+                <h4 class="display-1">HALO!</h4>
+                <h3>Selamat Datang di HappyFifa Website.</h3>
+                <p>Kami menyediakan makanan dan minuman Home Made yang di jamin fresh, kami juga menyediakan
+                   makanan dalam bentuk frozen. Segera pesan dengan hubungi kami melalui Whatshap Terimakasih.
+                </p>
+                <br>
+                <a href="#about">
+                    <button type="button" class="btn btn-danger btn-lg">
+                        NEXT
+                    </button>
+                </a>
+            </div><!--Mengatur tampilan banner dengan tekt rata tengah, h4 dan h3 untuk penulisan dan tombol next untuk melanjutkan ke halaman berikutnya-->
+        </div>
+
+    <!--About-->
+    <div class="container-fluid about pt-5 pb-5"> <!--Mengaturpadding-->
+        <div class="container text-center">
+            <h2 class="display-3" id="about">About</h2>
+            <p>
+                Berikut adalah penjelasan mengenai makanan, minuman, dan junk food.
+            </p>
+
+            <div class="row pt-4"> <!--Mengatur baris-->
+            <div class="col-md-4"> <!--Mengatur grid-->
+                <span class="lingkaran"><i class="fal fa-utensils fa-4x"></i></span> <!--Menggunakan icon yang terdapat di menu fontawesome-->
+                <h3 class="mt-3">FOOD</h3> <!--Mengatur spasi margin-->
+                <p>
+                    Makanan adalah zat yang dimakan oleh mahluk hidup untuk mendapatkan nutrisi yang kemudian diolah menjadi energi.
+                    Karbohidrat, lemak, protein, vitaminm dan mineral merupakan nutrien dalam makanan yang dibutuhkan oleh tubuh.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <span class="lingkaran"><i class="fal fa-cocktail fa-4x"></i></span>
+                <h3 class="mt-3">Drink</h3>
+                <p>
+                    Minuman adalah cairan yang dimaksudkan untuk dikonsumsi manusia. 
+                    Selain fungsi dasar mereka untuk memuaskan dahaga, minuman memainkan peran penting dalam budaya manusia. 
+                    Jenis minuman yang umum termasuk air minum biasa, susu, jus, smoothie, dan minuman-minuman bersoda.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <span class="lingkaran"><i class="fal fa-cheeseburger fa-4x"></i></span>
+                <h3 class="mt-3">Junk Food</h3>
+                <p>
+                    Junk food sebagai suatu istilah yang digunakan untuk mendeskripsikan makanan dengan kandungan kalori, lemak, gula, serta garam yang tinggi.
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Food Gallery-->
+        <div class="container-fluid pt-5 pb-5 bg-light"> <!--mengatur padding dengan background terang-->
+            <div class="container text-center">
+                <h2 class="display-3" id="food gallery">Food Gallery</h2>
+                <p>
+                Berikut adalah penjelasan dan menu makanan yang kami jual.
+                </p>
+                <div class="row pt-4 gx-4 gy-4">    <!--Mengatur baris-->
+                    <div class="col-md-4">  <!--Mengatur grid-->
+                        <div class="card crop-img h-100"> <!--Menambahkan card dari bootstrap-->
+                            <img src="https://www.topwisata.info/wp-content/uploads/2020/07/pangsit2Bgoreng1.jpg"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            /> <!--Mengatur gambar-->
+                            <div class="card-body">
+                                <h5 class="card-title">PANGSIT GORENG</h5>
+                                <p class="card-text">
+                                    Pangsit goreng adalah makanan berupa isian daging cincang yang dibungkus lembaran tepung terigu lalu di goreng. 
+                                    Kami menjual pangsit goreng ini berupa frozen atau pun sudah di goreng berdasarkan permintaan pembeli, dimana 1 porsi pangsit goreng ini berisi 4 pcs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card crop-img h-100">
+                            <img src="https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2021/01/06/1765949545.jpg"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">PANGSIT REBUS</h5>
+                                <p class="card-text">
+                                    Pangsit rebus adalah makanan berupa isian daging cincang yang dibungkus lembaran tepung terigu lalu di rebus beberapa menit seperti Dimsum. 
+                                    Kami menjual pangsit rebus ini berupa frozen, dimana 1 porsi pangsit rebus berisi 4 pcs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card crop-img h-100">
+                            <img src="https://www.justonecookbook.com/wp-content/uploads/2019/06/Fruit-Sandwich-2-I-1.jpg"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">FRUIT SANDWICH</h5>
+                                <p class="card-text">
+                                    Fruit sandwich adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar, cemilan ini berasal dari Jepang. 
+                                    Makanan ini cocok dimakan kapanpun dan banyak disukai oleh semua kalangan. Kami menjual Fruit sandwich ini per 1 pcs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card crop-img h-100">
+                            <img src="https://akcdn.detik.net.id/community/media/visual/2019/12/03/4ba43d79-f3e9-4f44-be05-b5ea53b4cca5_43.jpeg?w=480"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">BOLA BOLA KENTANG</h5>
+                                <p class="card-text">
+                                    Bola kentang adalah camilan yang dibuat dengan bahan dasar kentang, kemudian dicampur dengan beberapa bahan seperti tepung terigu, keju, daun bawang, dll. 
+                                    Lalu adonan di bentuk bulat kecil-kecil dan digoreng hingga warnanya keemasan. Kami menyediakan dalam bentuk frozen ataupun sudah di goreng, dimana dalam 1 porsi berisi 8 pcs bola kentang.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card crop-img h-100">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.G43fXnJu6zYeUBu6S1S3LgHaE6&pid=Api&P=0"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">ENOKI GORENG</h5>
+                                <p class="card-text">
+                                    Enoki goreng adalah camilan yang terbuat dari jamur enoki dibalut oleh tepung. Tentunya camilan ini cocok untuk semua kalangan, karena dapat ditambahkan saos atau bumbu sesuai selera. 
+                                    Kami hanya menyediakan dalam bentuk yang sudah di goreng, dimana dalam 1 porsi berisikan 3 pcs enoki goreng.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card crop-img h-100">
+                            <img src="https://3.bp.blogspot.com/-Qqi9zPbIcOg/VkFwCgYpAQI/AAAAAAAAAJ8/IwndxG5KWfQ/s640/tahu.JPG"
+                            class="card-img-top"
+                            width="200"
+                            height="200"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">TAHU BULAT</h5>
+                                <p class="card-text">
+                                    Tahu bulat adalah sebuah jajanan kaki lima berupa olahan kacang kedelai yang dibuat menjadi sebuah tahu berbentuk bulat dengan isian kopong. 
+                                    Jajanan ini cocok dimakan kapanpun dan dapat ditambahkan bumbu perasa sesuai selera yang diinginkan. 
+                                    Kami menyediakan dalam bentuk frozen ataupun sudah di goreng, dimana dalam 1 porsi berisi kan 10 tahu bulat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Drink Gallery-->
+    <div class="container-fluid pt-5 pb-5 bg-light"> <!--mengatur padding dengan background terang-->
+        <div class="container text-center">
+            <h2 class="display-3" id="drink gallery">Drink Gallery</h2>
+            <p>
+            Berikut adalah jenis minuman yang digemari berbagai kalangan masyarakat.
+            </p>
+            <div class="row pt-4 gx-4 gy-4">    <!--Mengatur baris-->
+                <div class="col-md-4">  <!--Mengatur grid-->
+                    <div class="card crop img h-100"> <!--Menambahkan card dari bootstrap-->
+                        <img src="https://doyanresep.com/wp-content/uploads/2018/11/resep-minuman-susu-jelly-pop-ice.jpg"
+                        class="card-img-top"
+                        width="200"
+                        height="200"
+                        /> <!--Mengatur gambar-->
+                        <div class="card-body">
+                            <h5 class="card-title">JELSUS</h5>
+                            <p class="card-text">
+                                Jelsus atau jelly susu adalah minuman campuran jelly buah yang dikocok dengan susu. 
+                                kami menyediakan beberapa rasa dari jelly yang digunakan dalam minuman jelsus ini yaitu rasa strawberry, jambu, anggur,dll. 
+                                Minuman ini sangat segar diminum ketika cuaca sedang panas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img h-100">
+                        <img src="https://wallpapercave.com/wp/wp7289389.jpg"
+                        class="card-img-top"
+                        width="200"
+                        height="200"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Minuman Soda</h5>
+                            <p class="card-text">
+                                Minuman Soda adalah air yang dikarbonasikan dan dibuat bersifat efervesen dengan menambah gas karbondioksida di bawah tekanan. 
+                                Tambahan tersebut yang membuat adanya gelembung-gelembung khas pada air soda. Kami menyediakan minuman soda seperti Coca-Cola, fanta dan sprite.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card crop-img h-100">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.WCTdmjS64ckjZ4c8_6Xt7wHaE8&pid=Api&P=0"
+                        class="card-img-top"
+                        width="200"
+                        height="200"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">THAI TEA</h5>
+                            <p class="card-text">
+                                Thai tea merupakan minuman yang berasal dari Thailand, dan dikenal dengan sebutan lain yaitu "Cha Yen", yang artinya teh dingin. 
+                                Minuman ini memiliki rasa yang khas dan tentunya berbeda dengan es teh Indonesia karena didalamnya ditambahkan dengan campuran susu.
+                                Minuman ini sangat segar diminum ketika cuaca sedang panas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+    <!--Review-->
+    <div class="container-fluid pt-5 pb-5"> <!--Mengatur padding-->
+        <div class="container">
+            <h2 class="display-3 text-center" id="review">Review</h2>
+            <h3>FRUIT SANDWICH</h3>
+            
+            <div class="clearfix pt-5"><img src="https://asianinspirations.com.au/wp-content/uploads/2021/08/R02770-Fruit-Sando.jpg" 
+                 class="col-md-6 float-md-end mb-3 crop-img" width="350" height="350"/> <!--Mengatur padding gambar,menambahkan gambar,
+            mengatur gambar setengah dari layar, croping gambar, dan mengatur lebar serta tinggi gambar-->
+            <p>Fruit sandwich adalah sandwich yang menggunakan bahan isian berupa krim kocok dan potongan buah segar asal Jepang.</p>
+
+            <p>Ada fruit sandwich yang hanya menggunakan potongan stroberi saja, namun ada pula yang menggunakan 
+               jenis buah-buahan lainnya seperti kiwi dan mangga.</p>
+
+            <p>Kombinasi potongan buah dalam fruit sandwich akan menghasilkan citarasa yang sangat segar.
+               Variasi lain dari fruit sandwich yaitu Ichigo sandwich yang terdiri dari bahan isian berupa krim kocok, potongan buah stroberi dan selai.</p>
+
+            <p>Fruit Sandwich ini terkenal di Jepang, tetapi sudah banyak yang menjual juga di Indonesia. Dengan gaya yang sedikit di ubah
+                seperti buah yang suka di pakai di Jepang adalah buah persik tetapi di Indonesia memakai buah mangga sebagai gantinya.
+            </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Support-->
+    <div class="container-fluid pt-5 pb-5 bg-light"> <!--mengatur padding dengan background terang-->
+        <div class="container text-center">
+            <h2 class="display-3" id="support">Support</h2>
+            <p>
+            Team Support yang telah mendukung untuk pembuatan Website ini.
+            </p>
+            <div class="row pt-4 gx-4 gy-4">    <!--Mengatur baris-->
+                <div class="col-md-4 text-center support">  <!--Mengatur grid-->
+                    <img src="https://i.pinimg.com/736x/13/8e/ff/138eff0c2baa489544eee8dfe439a637.jpg"
+                    class="rounded-circle mb-3"
+                    /> <!--Menambah gambar dan mengatur dengan bentuk bulat dengan grid-->
+                    <h4>Juni</h4>
+                    <p>CHEF</p>
+                    <p>
+                        <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fab fa-instagram"></i></a>
+                    </p> <!--Menambahkan icon dibawah foto team support-->
+                </div>
+
+                <div class="col-md-4 text-center support">  <!--Mengatur grid-->
+                    <img src="https://media.istockphoto.com/vectors/cartoon-fat-male-chef-vector-id944431288?k=6&m=944431288&s=612x612&w=0&h=_Y5jSYiTvn9aWOUO5Wy7442CqG6kIE1aP2tmdC4pHQI="
+                    class="rounded-circle mb-3"
+                    /> <!--Menambah gambar dan mengatur dengan bentuk bulat dengan grid-->
+                    <h4>Arneld</h4>
+                    <p>CHEF</p>
+                    <p>
+                        <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fab fa-instagram"></i></a>
+                    </p> <!--Menambahkan icon dibawah foto team support-->
+                </div>
+
+                <div class="col-md-4 text-center support">  <!--Mengatur grid-->
+                    <img src="https://static.vecteezy.com/system/resources/previews/000/436/457/original/woman-chef-portrait-vector.jpg"
+                    class="rounded-circle mb-3"
+                    /> <!--Menambah gambar dan mengatur dengan bentuk bulat dengan grid-->
+                    <h4>Ranata</h4>
+                    <p>CHEF</p>
+                    <p>
+                        <a href="" class="social"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="social"><i class="fab fa-instagram"></i></a>
+                    </p> <!--Menambahkan icon dibawah foto team support-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div class="container-fluid pt-5 pb-5 contact"> <!--Mengatur Padding dengan background-->
+        <div class="container">
+            <h2 class="display-3 text-center" id="contact">Contact</h2>
+            <p class="text-center">Kami menyediakan Layanan, Masukkan dan Kritik</p>
+            <div class="row pb-3">     <!--Mengatur baris dengan padding bottom-->
+                <div class="col-md-6">  <!--Mengatur grid-->
+                    <input
+                    class="form-control form-control-lg mb-1"
+                    type="text"
+                    placeholder="Nama"/>    <!--Menambahkan text pada kolom-->
+
+                    <input
+                    class="form-control form-control-lg mb-1"
+                    type="text"
+                    placeholder="Email"/>    <!--Menambahkan text pada kolom-->
+
+                    <input
+                    class="form-control form-control-lg mb-1"
+                    type="text"
+                    placeholder="No.Hp"/>    <!--Menambahkan text pada kolom-->
+
+                    <input
+                    class="form-control form-control-lg mb-1"
+                    type="text"
+                    placeholder="Sosial Media"/>    <!--Menambahkan text pada kolom-->
+                </div>
+                <div class="col-md-6">
+                    <textarea class="form-control form control-lg" rows="6"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <button type="button" class="btn btn-danger btn-lg">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Copy right-->
+    <div class="container text-center pt-5 pb-5">
+        &copy; 2023. <b>HappyFifa</b> | All Rights Reserved
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFY1zcLA8N1
+    +NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    ></script>  <!--Menggunakan Bundle Js yang terdapat di Bootstrap-->
+</body>
+</html>
